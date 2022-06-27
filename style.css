@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+}
+#board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    background-color:gray;
+}
+h1{
+    color: aqua ;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+.cell{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+/* the borders for tic tac toe */
+
+#board{
+    background-color:aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+    display: flex;
+    justify-content: center;
+
+}
