@@ -10,9 +10,9 @@ const gameState = {
 };
 
 //HTML board
-board.addEventListener ("click", ("event") => {
-   
-    }
-
-
-)
+board.addEventListener ("click", event => {
+   if ( !event.target.innerHTML){
+       event.target.innerHTML = gameState.currentPlayer
+   }
+   if (currentPlayer === "x")
+    });
