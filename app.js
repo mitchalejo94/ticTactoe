@@ -1,17 +1,14 @@
 const gameState = {
     players: ["x", "o"],
     board: [
+        ["x", "x", "x"],
         [null, null, null],
-        [null, null, null],
-        [null, null, null],
+        [null, null, false],
     ],
     currentPlayer: "x",
-
 };
-const board = document.getElementById ("board")
-console.log(board);
-//HTML board
-board.addEventListener ("click", (event) => {
-const identify = event.target.id   
-console.log (identify)
-});
+
+for (let i=0; i<gameState.board.length;i++){
+    console.log(gameState.board[i].join(""));
+}
+
